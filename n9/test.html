@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задача 9 - Выбор фрукта с поиском</title>
+    
+    <style>
+        /* Выбираем нашу кнопку по её типу (type="submit") */
+        input[type="submit"] {
+            /* * Увеличиваем внутренние отступы. 
+             * Первое значение (10px) - отступ сверху и снизу.
+             * Второе значение (20px) - отступ слева и справа.
+             * Это основной параметр, который делает кнопку больше.
+            */
+            padding: 10px 20px;
+
+            /* Можно также увеличить размер шрифта на кнопке */
+            font-size: 16px;
+
+            /* Меняет курсор на "руку" при наведении, показывая, что элемент кликабельный */
+            cursor: pointer;
+        }
+    </style>
+    </head>
+<body>
+
+    <form action="#" method="get">
+        <fieldset>
+            <legend>Выберите любимый фрукт</legend>
+            <table>
+                <tbody>
+                    <tr>
+                        <td><label for="fruit-choice">Фрукт</label></td>
+                        <td>
+                            <input list="fruit-options" id="fruit-choice" name="fruit" placeholder="Начните вводить название...">
+                            <datalist id="fruit-options">
+                            <option value="apple">Яблоко</option>
+                            <option value="banana">Банан</option>
+                            <option value="cherry">Вишня</option>
+                            <option value="grape">Виноград</option>
+                            <option value="orange">Апельсин</option>
+                            <option value="pear">Груша</option>
+                            <option value="peach">Персик</option>
+                            <option value="plum">Слива</option>
+                            <option value="strawberry">Клубника</option>
+                            <option value="watermelon">Арбуз</option>
+                            <option value="kiwi">Киви</option>
+                            <option value="mango">Манго</option>
+                            <option value="pineapple">Ананас</option>
+                            <option value="coconut">Кокос</option>
+                            <option value="pomegranate">Гранат</option>
+                            <option value="fig">Инжир</option>
+                            <option value="date">Финик</option>
+                            <option value="raspberry">Малина</option>
+                            <option value="blueberry">Черника</option>
+                            <option value="blackberry">Ежевика</option>
+                            <option value="cranberry">Клюква</option>
+                            <option value="currant">Смородина</option>
+                            <option value="apricot">Абрикос</option>
+                            <option value="nectarine">Нектарин</option>
+                            <option value="tangerine">Мандарин</option>
+                            <option value="clementine">Клементин</option>
+                            <option value="lime">Лайм</option>
+                            <option value="grapefruit">Грейпфрут</option>
+                            <option value="persimmon">Хурма</option>
+                            <option value="starfruit">Карамбола</option>
+                            <option value="dragonfruit">Питайя</option>
+                            <option value="jackfruit">Джекфрут</option>
+                            <option value="durian">Дуриан</option>
+                            <option value="rambutan">Рамбутан</option>
+                            <option value="longan">Лонган</option>
+                            <option value="lychee">Личи</option>
+                            <option value="salak">Салак</option>    
+                            <option value="soursop">Сахарное яблоко</option>
+                            <option value="breadfruit">Хлебное дерево</option>
+                            <option value="jackfruit">Джекфрут</option> 
+                            <option value="medlar">Мушмула</option>
+                            <option value="quince">Айва</option>
+                            <option value="jujube">Зизифус</option>
+                            <option value="loquat">Мушмула японская</option>
+                            <option value="salmonberry">Салмонберри</option>
+                            <option value="cloudberry">Морошка</option>
+                            <option value="honeyberry">Хониберри</option>
+                            <option value="serviceberry">Сервисберри</option>
+                            <option value="barberry">Барбарис</option>
+                            <option value="sea-buckthorn">Облепиха</option>
+                            <option value="hawthorn">Боярышник</option>
+                            <option value="jujube">Зизифус</option>
+                            </datalist>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="submit" value="Отправить информацию">
+                        </td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset>
+    </form>
+
+</body>
+</html>
